@@ -1,0 +1,8 @@
+$ mkdir env
+$ virtualenv env
+$ source env/bin/activate
+(env) $ pip install Django==1.9.11
+(env) $ pip install psycopg2
+
+
+
