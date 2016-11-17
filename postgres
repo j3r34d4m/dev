@@ -1,3 +1,12 @@
-# with postGIS extensions
 
-$ 
+## create new user after installation
+## use the same username as your login to avoid entering a password for local access
+$ sudo -u postgres createuser --superuser <username>
+
+## create a database of the same name as your user
+$ createdb
+
+## in psql, create a database
+## DON'T FORGET THE SEMICOLON
+=# create database <db_name>;
+
