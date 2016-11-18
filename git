@@ -1,0 +1,7 @@
+# how to start working on code hosted on remote git repo
+# //TODO:
+
+# set a local repo to track with an upstream (remote) repo, i.e. the one configured above
+git branch --set-upstream-to=origin/<remote_branch_name> <local_branch_name>
+
+
